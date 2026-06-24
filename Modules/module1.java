@@ -1,3 +1,4 @@
+package Modules;
 import java.util.*;
 public class module1 {
     public static void main(String[] args){
@@ -169,8 +170,14 @@ public class module1 {
         System.out.println(VList.size());
 
         // System.out.println(VList.toString());
-        
+
         System.out.println(VList.contains(22));
+
+
+        //==========Stack==========
+
+        //Stack extends Vector and It's almost same as Vector,
+        //So no need to write code for it again.
 
 
 
