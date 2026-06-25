@@ -121,8 +121,20 @@ public class module2{
         System.out.println("Set intersection Set2: " + set);
 
 
-        Set<Student> sSet = new 
-        
+        Set<Student> sSet = new HashSet<>();
+        //We need to add two additional methods (hashcode() & equals()),
+        //If we want to make hashset on userdefined class
+
+        Student s1 = new Student(1 , "Mudasir");
+        Student s2 = new Student(2 , "Mudasir");
+        Student s3 = new Student(3 , "Mudasir");
+
+        sSet.add(s1);
+        sSet.add(s2);
+        sSet.add(s3);
+
+        System.out.println(sSet);
+
 
 
     
@@ -136,6 +148,30 @@ class Student{
         this.rollNo = rollNo;
         this.name = name;
     }
-
+    @Override
+    public String toString() {
+        return "Student [rollNo=" + rollNo + ", name=" + name + "]";
+    }
+    @Override
+    public int hashCode() {
+        final int prime = 31;
+        int result = 1;
+        result = prime * result + rollNo;
+        return result;
+    }
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj)
+            return true;
+        if (obj == null)
+            return false;
+        if (getClass() != obj.getClass())
+            return false;
+        Student other = (Student) obj;
+        if (rollNo != other.rollNo)
+            return false;
+        return true;
+    }
+    
     
 }
