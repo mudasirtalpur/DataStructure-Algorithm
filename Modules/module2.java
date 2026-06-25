@@ -135,6 +135,46 @@ public class module2{
 
         System.out.println(sSet);
 
+        System.out.println("Checking the diff in arrangment of element: ");
+
+        Set<Integer> hSet = new HashSet<>();
+
+        hSet.add(80);
+        hSet.add(40);
+        hSet.add(49);
+
+        System.out.println("Printing HashSet: " + hSet);
+
+        Set<Integer> lSet = new LinkedHashSet<>();
+
+        lSet.add(80);
+        lSet.add(40);
+        lSet.add(49);
+
+        System.out.println("Printing LinkedHashSet: " + lSet);
+
+        Set<Integer> tSet = new TreeSet<>();
+
+        tSet.add(80);
+        tSet.add(40);
+        tSet.add(49);
+
+        System.out.println("Printing TreeSet: " + tSet);
+
+
+        //HashSet gives each element gives unique hashCode, 
+        //that's why arragment is random and It's timeComplexity is O(1)
+
+        //LinkedHashSet maintains the order at which elements are inserted
+        //It's timeComplexity is O(n)
+
+        //TreeSet is based on BST so it arranges elements in accending order
+        //It's timeComplexity is O(logn)
+
+        //Bcz they implement "Set" so they store only unique elements and each element is given unique hashcode
+
+
+
 
 
     

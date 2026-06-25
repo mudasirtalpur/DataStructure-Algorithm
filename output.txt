@@ -19,3 +19,7 @@ true
 false
 Set intersection Set2: [49, 40]
 [Student [rollNo=1, name=Mudasir], Student [rollNo=2, name=Mudasir], Student [rollNo=3, name=Mudasir]]
+Checking the diff in arrangment of element: 
+Printing HashSet: [80, 49, 40]
+Printing LinkedHashSet: [80, 40, 49]
+Printing TreeSet: [40, 49, 80]
