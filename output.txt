@@ -1,19 +1,4 @@
-{usa=United States, in=India, jp=Japan, pk=Pakistan}
-{br=Brazil, en=England}
-{br=Brazil, usa=United States, in=India, jp=Japan, en=England, pk=Pakistan}
-Pakistan
-Not Present
-true
-false
-{br=Brazil, usa=United States, in=Indonesia, jp=Japan, en=England, pk=Pakistan}
-{br=Brazil, usa=United States of America, in=Indonesia, jp=Japan, en=England, pk=Pakistan}
-{br=Brazil, usa=United States of America, jp=Japan, en=England, pk=Pakistan}
-[br, usa, jp, en, pk]
-[Brazil, United States of America, Japan, England, Pakistan]
-br=Brazil
-usa=United States of America
-jp=Japan
-en=England
-pk=Pakistan
-[5, 40, 49, 58]
-1 2 3 4 5 6 7 
+The avg of given is: 3.75
+Target is Found on index:1 in orignalArray
+The max element in Array: 6
+Sum of +ve: 123, Sum of -ve: 72
