@@ -1,5 +1,6 @@
 package Arrays;
 
+import java.util.Arrays;
 
 public class Easy {
     public void main(String[] args){
@@ -31,6 +32,14 @@ public class Easy {
         int[] array = {3, -7, 15, -2, 8, 42, -19, 6, -11, 27, 4, -33, 18};
         int[] sum = sumForNegPos(array);//where index 0 is postive while negative
         System.out.println("Sum of +ve: " + sum[0] + ", Sum of -ve: " + sum[1]);
+
+        int[] firstUnSortElement = {0 , 1 , 3 , 5 ,2};
+        Integer unSorted = firstUnSorted(firstUnSortElement);
+        if(unSorted != null)
+            System.out.println("First unsorted element in Array is: " + unSorted);
+        else 
+            System.out.println("The is no unsorted element in Array");
+
 
 
 
@@ -68,8 +77,7 @@ public class Easy {
     int findMax(int[] arr){
         int max = 0;
         for(int i : arr){
-            if(i > max)
-                max = i;
+            max = Math.max(max, i);
         }
         return max;
     }
@@ -85,5 +93,15 @@ public class Easy {
         }
         int[] sum = {pos, neg};
         return sum;
+    }
+
+    Integer firstUnSorted(int[] arr){
+        int[] sorted = arr.clone();
+        Arrays.sort(sorted);
+        for (int i = 0; i < arr.length ; i++){
+            if(arr[i] != sorted[i])
+                return arr[i];
+        }
+        return null;
     }
 }

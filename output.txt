@@ -1,4 +1,4 @@
-The avg of given is: 3.75
-Target is Found on index:1 in orignalArray
-The max element in Array: 6
-Sum of +ve: 123, Sum of -ve: 72
+Befor Sorting:
+3 -7 15 -2 8 42 -19 6 -11 27 4 -33 18 
+After Sorting:
+-33 -19 -11 -7 -2 3 4 6 8 15 18 27 42 
