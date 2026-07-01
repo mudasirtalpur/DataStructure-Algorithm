@@ -1,4 +1,1 @@
-Parameterised:
-55
-Fucntional:
-55
+The 4 term of Fibonacci number is: 3
