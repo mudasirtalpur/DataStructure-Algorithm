@@ -6,6 +6,11 @@ public class insertionSort{
         int size = arr.length;
         int key;
 
+        System.out.println("Before Sorting: ");
+
+        for(int num : arr)
+            System.out.print(num + " ");
+
         for(int i = 1; i < size; i++){
             key = arr[i];
             int j = i-1;
@@ -15,6 +20,7 @@ public class insertionSort{
             }
             arr[j+1] = key;
         }
+        System.out.println("\nAfter Sorting: ");
 
         for(int num : arr)
             System.out.print(num + " ");
