@@ -1,5 +1,4 @@
 package Hashing;
-
 import java.util.Scanner;
 
 public class intHashing{
