@@ -30,7 +30,7 @@ public class quickSort{
         while(i < j){
             while(arr[i] <= pivot && i <= high - 1) //For descending -> arr[i] >= pivot
                 i++;
-            while(arr[j] > pivot && j >= low + 1) //For descending -> arr[j] < pivot
+            while(arr[j] > pivot && j >= low + 1) //For descending -> arr[j] < pivot 
                 j--;
             if(i < j){
                 int temp = arr[i];
