@@ -1,4 +1,4 @@
-// package Arrays.Easy;
+package Arrays.Easy;
 
 public class secondLargestElement{
 
