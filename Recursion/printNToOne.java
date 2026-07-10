@@ -1,5 +1,4 @@
 package Recursion;
-
 public class printNToOne{
     public void main(String[] args){
 

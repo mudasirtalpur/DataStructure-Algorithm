@@ -1,5 +1,4 @@
 package Sort;
-
 public class bubbleSort {
     public void main(String[] args){
         int[] arr = {3, -7, 15, -2, 8, 42, -19, 6, -11, 27, 4, -33, 18};

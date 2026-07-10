@@ -1,6 +1,5 @@
 package Hashing;
 import java.util.*;
-
 public class mapIntHashing{
     public void main(String[] args){
         Scanner sc = new Scanner(System.in);

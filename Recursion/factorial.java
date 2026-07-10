@@ -1,5 +1,4 @@
 package Recursion;
-
 public class factorial{
     int pTotal = 1;
     int fTotal = 1;

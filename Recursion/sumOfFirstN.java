@@ -1,5 +1,4 @@
 package Recursion;
-
 public class sumOfFirstN{
     public void main(String[] args){
 

@@ -1,5 +1,4 @@
 package Sort;
-
 public class quickSort{
     public void main(String[] args){
         int[] arr = {3,7,3,1,7,9,6};
