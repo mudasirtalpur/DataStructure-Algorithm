@@ -1,4 +1,4 @@
-// package Arrays.Easy;
+package Arrays.Easy;
 
 public class ifArraySorted{
     public void main(String[] args){
