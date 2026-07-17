@@ -1,4 +1,4 @@
-// package Arrays.Medium;
+package Arrays.Medium;
 
 public class kadanesAlgo{
     public void main(String[] args){
@@ -15,7 +15,7 @@ public class kadanesAlgo{
             sum += nums[j];
             maxSum = Math.max(maxSum, sum);
             if(sum < 0)
-                sum = nums[j];
+                sum = 0;
 
         }
 
