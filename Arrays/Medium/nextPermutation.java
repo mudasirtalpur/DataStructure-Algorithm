@@ -1,4 +1,4 @@
-// package Arrays.Medium;
+package Arrays.Medium;
 
 public class nextPermutation{
     public void main(String[] args){
