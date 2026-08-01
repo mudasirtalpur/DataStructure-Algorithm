@@ -4,9 +4,8 @@ public class containerWithMostWater{
     public void main(String[] args){
         int[] height = {1,8,6,2,5,4,8,3,7};
 
-        System.out.print("Container with most water contains: " + maxArea(height) + " unit area.")
+        System.out.print("Container with most water contains: " + maxArea(height) + " unit area.");
     }
-
     public int maxArea(int[] height){
         int maxContainer = 0;
         int left = 0;
